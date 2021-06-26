@@ -3,7 +3,7 @@
 <br>
 
 ## :pushpin: Sobre o Desafio
-Este desafio tem como objetivo a criação de uma aplicação de **To Do (Tarefas)** utilziando o conceito **Serverless**.
+Este desafio tem como objetivo a criação de uma aplicação de **To Do (Tarefas)** utilizando o conceito **Serverless**.
 - **POST -** `/saveTodo/{userid}`
 
     Essa rota deve receber o `id` de um usuário pelo `pathParameters` (você pode criar esse id manualmente apenas para preencher o campo) e os seguintes campos no corpo da requisição: `title` e `deadline`, onde `deadline` é a data limite para o *todo*.
